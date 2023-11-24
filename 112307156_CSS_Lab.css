@@ -1,0 +1,36 @@
+/* CSS code */
+body {
+  color: darkblue;
+  background-color: lightblue;
+  font-family: Apple Chancery, cursive;
+}
+
+.heading {
+  font-family: "Snell Roundhand", cursive;
+}
+
+.navbar {
+  position: relative;
+  top: 0px;
+  left: 10px;
+  width: 8em;
+}
+
+/* Media queries */
+@media all {
+  /* CSS styles for all devices */
+  .heading {
+    font-size: 34px;
+  }
+}
+
+@media print {
+  /* CSS styles for print media */
+  body {
+    background-color: lightblue;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+}
